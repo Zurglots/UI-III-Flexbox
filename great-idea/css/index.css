@@ -158,7 +158,7 @@ h5 {
 }
 
 header {
-  border: 5px dashed orange;
+  /* border: 5px dashed orange; */
   /* padding: 20px 20px 20px; */
   display: flex;
   justify-content: flex-start;
@@ -189,10 +189,10 @@ nav a {
 
 .intro-container {
   text-align: center;
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 .intro {
-  border: 4px dashed red;
+  /* border: 4px dashed red; */
   display: flex;
   /* align-items: stretch; */
   justify-content: space-around;
@@ -205,19 +205,22 @@ nav a {
 }
 
 .intro h1 {
-  font-size: 50pt;
+  font-size: 60pt;
   display: flex;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   align-items: center;
+  padding: 0 0 10px 0;
 }
 
 .introimg {
   /* width: 30%; */
   display: flex;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
+  width: 400px;
+  height: auto;
   /* display: inline-block; */
   /* TRBL*/
-  padding: 20px 10px 10px 20px;
+  padding: 40px 10px 70px 20px;
 }
 
 .cta > button {
@@ -234,72 +237,91 @@ nav a {
 }
 
 .intro > .cta {
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-header p {
+/* header p {
   text-align: center;
   border: 1px solid black;
   width: 150px;
-}
-.codeimg {
+} */
+/* .codeimg {
   width: 30%;
   height: 30%;
   /*TRBL*/
-  padding: 0 20px 20px 100px;
-}
+/* padding: 0 20px 20px 100px;
+} */
 
 .top-content {
   border-top: 1px solid black;
   padding: 30px 0 30px;
+  display: flex;
 }
 
 .top-content .features {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   /* border: 1px solid red; */
   width: 49%;
   margin-right: 5px;
 }
 
 .top-content .about {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   /* border: 1px solid red; */
   width: 49%;
 }
 
 .middle-img {
-  display: block;
+  display: flex;
   width: 100%;
+  padding: 0 0 10px 0;
 }
 
 .bottom-content {
   border-bottom: 1px solid black;
   padding: 20px 0 30px;
+  display: flex;
 }
 
 .bottom-content .services {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 32%;
   /* border: 1px solid red; */
 }
 
 .bottom-content .product {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 32%;
   margin: 0px 10px 0px;
 }
 
 .bottom-content .vision {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 32%;
 }
 
 .contact-content {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 footer p {
-  text-align: center;
+  padding: 45px 0 0 0;
+  /* text-align: center; */
+  /* display: flex;
+  align-items: center; */
 }

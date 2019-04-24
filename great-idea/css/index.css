@@ -348,9 +348,10 @@ h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: space-between;
   justify-content: space-between;
-  height: ;
+  height: 840px;
+  width: 881px;
 }
 
 .cards {
@@ -358,6 +359,30 @@ h3 {
   border: 1px solid black;
   flex-direction: column;
   background: rgb(219, 219, 219);
-  height: 150px;
-  width: 320px;
+  height: 249px;
+  width: 420px;
+}
+
+.learn-more {
+  display: flex;
+  border: 1px solid black;
+  height: 35px;
+  width: 140px;
+  border-radius: 5px;
+  padding: 8px 0 0 32px;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+
+.content-main h2 {
+  padding: 22px 0px 5px 15px;
+  font-size: 18px;
+}
+
+.content-main p {
+  display: flex;
+  line-height: 1.2;
+  padding: 0 20px 0 5px;
+  font-size: 16.5px;
+  margin-left: 10px;
 }

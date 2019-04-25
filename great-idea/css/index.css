@@ -432,10 +432,20 @@ ul > li {
   margin-left: 15px;
 }
 
-.s-bottom > .services-info-img {
+.services-img-1 {
   display: flex;
-  align-self: center;
-  height: auto;
+  align-items: center;
+  /* border: 2px dashed red; */
   width: 420px;
+  /* height: ; */
+  /* height: 100%; */
+}
+
+.s-bottom > .services-info-img {
+  /* display: flex; */
+  /* align-self: center; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   /* flex-direction: row-reverse; */
 }

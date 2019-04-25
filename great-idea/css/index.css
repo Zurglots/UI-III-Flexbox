@@ -368,12 +368,10 @@ h3 {
 }
 
 .learn-more {
-  display: flex;
   border: 1px solid black;
   height: 35px;
   width: 140px;
   border-radius: 5px;
-  padding: 8px 0 4px 36px;
   margin-top: 17px;
   margin-left: 15px;
   background: white;

@@ -352,13 +352,13 @@ h3 {
   /* padding-top: 40px;
   padding-bottom: 40px; */
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: space-around;
   /* margin-top: 35px; */
-  height: 880px;
-  width: 880px;
+  /* height: 880px; */
+  width: 100%;
 }
 
 .cards {
@@ -388,22 +388,22 @@ h3 {
 }
 
 .digital-design {
-  margin-left: 35px;
+  /* margin-left: 35px; */
   margin-top: 10px;
 }
 
 .ux-ui {
-  margin-right: 35px;
+  /* margin-right: 35px; */
   margin-top: 10px;
 }
 
 .digital-marketing {
-  margin-left: 35px;
+  /* margin-left: 35px; */
   margin-top: 10px;
 }
 
 .web-development {
-  margin-right: 35px;
+  /* margin-right: 35px; */
   margin-top: 10px;
 }
 

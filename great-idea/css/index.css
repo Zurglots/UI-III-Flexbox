@@ -340,31 +340,71 @@ h3 {
   display: flex;
   flex-direction: column;
   /* align-items: flex-start; */
-  padding: 22px 0 30px 0;
+  /* padding: 22px 0 30px 0; */
+  margin-top: 22px;
+  margin-bottom: 30px;
 }
 
 .content-main {
   /* border: 2px dashed orange; */
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
-  height: 880px;
-  width: 881px;
+  align-content: space-around;
+  justify-content: space-around;
+  /* margin-top: 35px; */
+  /* height: 880px; */
+  width: 100%;
 }
 
 .cards {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex-direction: column;
-  background: rgb(219, 219, 219);
-  height: 249px;
-  width: 420px;
+  /* background: rgb(219, 219, 219); */
+  height: 430px;
+  width: 380px;
+  /* margin: 20px; */
+}
+
+.icu {
+  /* display: flex; */
+  object-fit: cover;
+  width: 100%;
+}
+
+.flip {
+  /* display: none; */
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.digital-design {
+  /* margin-left: 35px; */
+  margin-top: 10px;
+}
+
+.ux-ui {
+  /* margin-right: 35px; */
+  margin-top: 10px;
+}
+
+.digital-marketing {
+  /* margin-left: 35px; */
+  margin-top: 10px;
+}
+
+.web-development {
+  /* margin-right: 35px; */
+  margin-top: 10px;
 }
 
 .learn-more {
@@ -378,16 +418,16 @@ h3 {
 }
 
 .content-main h2 {
-  padding: 22px 0px 5px 15px;
+  padding: 22px 0px 5px 0px;
   font-size: 18px;
 }
 
 .content-main p {
   display: flex;
   line-height: 1.2;
-  padding: 0 20px 0 5px;
+  padding: 0 20px 0 0px;
   font-size: 16.5px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .s-bottom {
@@ -432,10 +472,20 @@ ul > li {
   margin-left: 15px;
 }
 
-.s-bottom > .services-info-img {
+.services-img-1 {
   display: flex;
-  align-self: center;
-  height: auto;
+  align-items: center;
+  /* border: 2px dashed red; */
   width: 420px;
+  /* height: ; */
+  /* height: 100%; */
+}
+
+.s-bottom > .services-info-img {
+  /* display: flex; */
+  /* align-self: center; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   /* flex-direction: row-reverse; */
 }
